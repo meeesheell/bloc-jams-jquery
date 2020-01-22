@@ -58,8 +58,8 @@ class Player {
     leftover = leftover - (hours * 3600);
     var minutes = Math.floor(leftover/60);
     leftover = leftover -(minutes * 60);
-    document.write(hours + ':' + minutes + ':' + leftover); */
-  }
+    document.write(hours + ':' + minutes + ':' + leftover);
+  } */
 
 }
 
