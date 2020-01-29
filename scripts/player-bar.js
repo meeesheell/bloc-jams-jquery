@@ -43,7 +43,8 @@ setInterval( () => {
     const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
     const previousSongIndex = currentSongIndex - 1;
     if (previousSongIndex == -1) {
-      previousSongIndex = albm.songs.length - 1;
+      return;
+      //previousSongIndex = album.songs.length - 1;
     }
 
     const previousSong = album.songs[previousSongIndex];
